@@ -15,17 +15,19 @@ h3 {
   line-height: 1.2;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #c9d1d9;
-    background: #0d1117;
-  }
 
-  a:link {
-    color: #58a6ff;
-  }
+// Dark mode if you want it
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     color: #c9d1d9;
+//     background: #0d1117;
+//   }
 
-  a:visited {
-    color: #8e96f0;
-  }
-}
+//   a:link {
+//     color: #58a6ff;
+//   }
+
+//   a:visited {
+//     color: #8e96f0;
+//   }
+// }
