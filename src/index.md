@@ -36,7 +36,7 @@ Public blockchains are all about decentralisation and transparency, preventing t
 | Blockchain | Validators | Superminority | 
 |------------|------------|---------------|
 | **Tezos**  | **409**    | **5**         |
-| Algorand   | 323        | _?_           |
+| Algorand   | 323        | 13            |
 | Avalanche  | 1240       | 26            |
 | BNB Chain  | 26         | 1             |
 | Cosmos     | 125        | 7             |
@@ -91,20 +91,11 @@ Based on its innovative governance and a proven ability to ensure upgradability 
  
 As an energy-efficient and upgradable protocol, Tezos brings together developers, artists, or institutions that want to build the future of Web3 through entities and applications that can be found on [tezos.com/ecosystem](https://tezos.com/ecosystem). Always evolving, this list displays the majority of all the dozens of projects that are being developed in categories such as: block explorers, baking tools, community, DeFi, Dev Tools, NFTs, Gaming, Digital identity, stablecoins.
 
-#### Open source 
+### Open source 
 
 An open-source blockchain, Tezos offers a tremendous amount of quality content to start building: an obvious and very user-friendly first step drives to the [Tezos Developer Portal](https://tezos.com/developers/) to explore education, tools, resources, and community. To dive deeper and experiment with the technical and economic concepts behind Tezos, Opentezos.com offers in-depth tutorials and guidelines to  build a dapp step-by-step.
 
-In just four years, Tezos has nurtured a passionate and vivid community of followers on social media, especially on Twitter where it outreaches 450K followers. Thanks to this burgeoning ecosystem, Tezos regularly ranks in the Top 5 blockchains for social volume and engagement according to LunarCrush.
- 
-#### Events 
-
-TezDev Paris (July 2022) - The first of its kind in the Tezos ecosystem, TezDev was a very special venue in the French capital for a 3-day conference: Tezos developers, project teams from the ecosystem and visitors gathered and connected together to learn more about innovations, ideas and onboarding.
-With over 300 participants, TezDev lighted up the year 2022 as a great success in sight of many more to come.
-
-In June, Tezos hosted a stand at the WeAreDev exhibition in Berlin where multiple teams from the Tezos ecosystem could display their work and network with a passionate and high-skilled crowd of Web3 devs. 
-In addition, Tezos financially supports the organization of Hackathons, bounties & conferences.
-
+![PoS Chain carbon footprint](/images/dev-contribs.webp)
 
 ### Arts
  
@@ -120,6 +111,7 @@ If Tezos is home to builders, creators, and innovators, art is at the center of 
 
 - Proof of the strong and deep bond between Tezos and art, its founders Arthur and Kathleen Breitman recently explored, in the recorded interview **Art for Art(ist)'s Sake**, how and why artist communities have flourished on Tezos.
 
+![NFT Sales Q3 2022](/images/nft-sales.webp)
 
 ### Public deals
 
@@ -136,6 +128,17 @@ Tezos have ambitious and thriving marketing collaborations with some of the most
 - **Team Vitality**: Team Vitality and Tezos signed a technical partnership to give the organization's community world-first ways to engage with its star players.
 
 - **Ubisoft**: Ubisoft and Tezos launched the Quartz platform, the debut of NFTs for in-game items from the video game company and its first step to develop a true metaverse built on Tezos.
+
+
+</section>
+
+<section id="carbon-footprint">
+
+## [4. Carbon Footprint](#carbon-footprint)
+
+While PoS reduced carbon footprint and electricity consumption for blockchain, Tezos remains one of the most energey efficient chain.
+
+![PoS Chain carbon footprint](/images/co2-emissions.webp)
 
 
 </section>
