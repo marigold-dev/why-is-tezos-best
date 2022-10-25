@@ -13,7 +13,15 @@ People were a long time ago concerned by [Proof-of-Stake and its risk of central
 
 
 <div class="row">
-  <div class="distribution">[Tezos Baker Distribution]</div>
+  <div class="distribution">
+  
+  
+_Tezos bakers distribution_
+
+![Tezos bakers distribution](/images/tezos-staking.webp)
+
+
+  </div>
   <div class="distribution">
 
 _Bitcoin mining pools hashrate distribution_
@@ -46,8 +54,9 @@ Public blockchains are all about decentralisation and transparency, preventing t
 | Solana     | 2086       | 30            |
 
 
-On the other end of the spectrum, Tezos is one of the lightest blockchain, and chooses to run on hardware that costs a fraction of the other blockchains' nodes. With this horizontal scaling approach, applications that require a higher computational power are delegated to specialized rollups or sidechains. This makes it much easier to run a node from smaller data centers, or even from home.
+On the other end of the spectrum, Tezos is one of the lightest blockchain, and chooses to run on hardware that costs a fraction of the other blockchains' nodes. With this horizontal scaling approach, applications that require a higher computational power are delegated to specialized rollups or sidechains. This makes it much easier to run a node from smaller data centers, or even from home, and so one of the most energy efficient chain.
 
+![PoS Chain carbon footprint](/images/co2-emissions.webp)
 
 Consistent with this, Tezos requirements for a validator to join the network are among the lowest, as the largest part of the stake can be provided by delegators. Unlike Polkadot, Polygon or Flow, no identification procedure is required to join the network. This makes Tezos one of the most decentralized proof of stake blockchain.
 
@@ -128,17 +137,6 @@ Tezos have ambitious and thriving marketing collaborations with some of the most
 - **Team Vitality**: Team Vitality and Tezos signed a technical partnership to give the organization's community world-first ways to engage with its star players.
 
 - **Ubisoft**: Ubisoft and Tezos launched the Quartz platform, the debut of NFTs for in-game items from the video game company and its first step to develop a true metaverse built on Tezos.
-
-
-</section>
-
-<section id="carbon-footprint">
-
-## [4. Carbon Footprint](#carbon-footprint)
-
-While PoS reduced carbon footprint and electricity consumption for blockchain, Tezos remains one of the most energey efficient chain.
-
-![PoS Chain carbon footprint](/images/co2-emissions.webp)
 
 
 </section>
