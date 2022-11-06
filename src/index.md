@@ -54,7 +54,7 @@ Public blockchains are all about decentralisation and transparency, preventing t
 | Solana     | 2086       | 30            |
 
 
-On the other end of the spectrum, Tezos is one of the lightest blockchain, and chooses to run on hardware that costs a fraction of the other blockchains' nodes. With this horizontal scaling approach, applications that require a higher computational power are delegated to specialized rollups or sidechains. This makes it much easier to run a node from smaller data centers, or even from home, and so one of the most energy efficient chain.
+On the other end of the spectrum, Tezos is one of the lightest blockchain, and chooses to run on hardware that costs a fraction of the other blockchains' nodes. With this horizontal scaling approach, applications that require a higher computational power are delegated to specialized rollups or sidechains. This makes it much easier to run a node from smaller data centers, or even from home, and so one of [the most energy efficient blockchain](https://tezos.com/carbon/).
 
 ![PoS Chain carbon footprint](/images/co2-emissions.webp)
 
@@ -63,14 +63,14 @@ Consistent with this, Tezos requirements for a validator to join the network are
 
 | Blockchain | Validator min Hadware                      | min Stake  | KYC          |
 |------------|--------------------------------------------|------------|--------------|
-| **Tezos**  | **Rasp. Pi 4 / 8GB RAM / 100GB Disk**      | 6,000 XTZ  | No           |
+| **Tezos**  | **Rasp. Pi 4 / 8GB RAM / 100GB Disk**      | **6,000 XTZ**  | **No**   |
 | Algorand   | Rasp. Pi 4 / 8GB RAM / 500GB Disk          | 0.1 ALGO   | No           | 
 | Avalanche  | 8 vCPU / 16GB RAM / TB Disk                | 2,000 AVAX | No           |
 | Cosmos     | 2 vCPU / 2GB RAM / 80GB Disk               | select by voting power  | No           |
 | Flow       | 2 vCPU / 16GB RAM / 200GB Disk             | ?          | Yes          |
 | Near       | 8 vCPU / 24GB RAM / 1TB Disk               | 36,871 NEAR| No           |
 | Polkadot   | 4 vCPU / 16GB RAM / 1TB Disk               | 1,885,693.855 DOT  | Yes           |
-| Solana     | 12 vCPU / 256GB RAM / 2TB Disk             | 0.02685864 SOL (but breakeven is 50,000 SOL) | No           |
+| Solana     | 12 vCPU / 256GB RAM / 2TB Disk             | 0.02685864 SOL (breakeven is 50,000 SOL) | No           |
 
 
 </section>
@@ -79,12 +79,47 @@ Consistent with this, Tezos requirements for a validator to join the network are
 
 ## [2. Self-Amendment and Governance](#governance)
 
-Tezos is the main blockchain with a working Self-Amendment mechanism, going through a proper on-chain Governance process, rather than being controlled by a centralized authority (like the dev team).
+Tezos is the main blockchain with a working Self-Amendment mechanism, going through a proper on-chain Governance process, rather than being controlled by a centralized authority.
 
-While it took Ethereum years to move to Proof-of-Stake, **Tezos is at its 12th version**! Major self-amendments included:
-- Two changes of consensus
-- The integration of Sapling
-- A prototype of Enshrined Rollups
+While it tooks Ethereum years to move to Proof-of-Stake, **Tezos is at its 12th version**!
+
+In Tezos, all stakeholders can participate in governing the protocol by delegating their $XTZ to a baker.
+
+Tezos Goverance lies in its on-chain mechanism to propose changes to the economic protocol where any baker can propose to Tezos commonwealth a protocol amendment proposal. Then bakers can vote for-or-against these changes and activate it or not depending on the results of the vote.
+
+The protocol, the vote and the activation processes are part of the economic protocol itself.
+ 
+To do so, it follows five steps, called five periods
+- Proposal period: proposal and selection of the amendment to explore
+- Exploration Vote Period: vote for or against proposal
+- Cooldown Period: test and discussion about the proposal
+- Promotion Vote Period: vote for the activation
+- Adoption Period: preparation of the activation
+ 
+Exploration and Promotion votes are very conservatives: the amendment proposal requires tu reach a [quorum](https://opentezos.com/tezos-basics/governance-on-chain/#quorum-computation) - currently above 49.85% - with a supermajority of 80% in favor of the proposal. Each winning amendment reflect a commitment of Tezos community. No centralized authority can enforce a proposal to Tezos Commonwealth.
+
+Once bakers approve alteration to the Tezos chain, adjustments or amendments, it will automatically be implemented on the blockchain through smart contracts.
+
+
+When a hardfork happens on a chain, any miner (PoW) or validator (PoS) can vote by chosing which chain follow. If at least one validator still follow the old chain, both exist then all coins and contracts are duplicated. Even mecanism like difficulty bomb on The Merge had prevent EthereumPOW to exist.
+Some chains like cosmos try consensus with a vote on "paper" via a DAO but the upgrade itself remain a hardfork, so a fork is still possible.
+On the other hand self amendment's blockchain make upgrade happens for all, whenever a vote win.
+
+
+| Blockchain | Model              | Proposers      | Voters          | Forks                          |
+|------------|--------------------|----------------|-----------------|--------------------------------|
+| **Tezos**  | **Self amendment** | **Any baker**  | **Bakers**      | **None**                       |
+| Bitcoin    | Hard fork          | Decentralized  | Miners          | Bitcoin Cash, Bitcoin Gold, eCash |
+| Ethereum   | Hard fork          | Decentralized  | Validators      | Ethereum Classic, EthereumPOW  |
+| Algorand   | Self amendment     | Centralized    | Governance sit  | None                           | 
+| Avalanche  | Hard fork          | Ava Labs       | Validators      | None                           | 
+| Cosmos     | DAO + Hard fork    | Anyone         | Stakers         | None                           | 
+| Flow       | Hard fork          | Centralized    | Stakers         | None                           | 
+| Near       | Hard fork          | NEAR Foundation| Validators      | None                           | 
+| Polkadot   | Self amendment     | Anyone         | Depends on proposal's Origin | None              | 
+| Solana     | Hard fork          | Solana Labs    | Validators      | None                           | 
+
+Combining self-amendment & onchain gouvernance allow Tezos to implement more efficient, expressive, and scalable solutions.
 
 </section>
 
