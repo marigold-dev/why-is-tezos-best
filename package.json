@@ -1,5 +1,16 @@
 {
+  "name": "why-is-tezos-best",
+  "version": "0.0.1",
+  "author": "Marigold <contact@maigold.dev>",
+  "scripts": {
+    "watch": "nodemon . -e js,md,html --ignore www/",
+    "serve": "python -m http.server 9000",
+    "build": "node ."
+  },
   "dependencies": {
     "markdown-it": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
