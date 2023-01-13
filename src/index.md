@@ -1,28 +1,60 @@
 
-<h1>Why is <img src="/logo.png" id="logo"\>Tezos the Best?</h1>
+<header>
+<h1>Why is Tezos the Best
+</h1>
 
----
+![header](./images/header.png)
+{.header}
 
-## [1. Decentralization](#decentralization) {.pro #decentralization}
+<div>
+
+<p>
+
+[Decentralization](#decentralization)
+</p>
+
+<p>
+
+[Self-Amendment and Governance](#governance)
+</p>
+
+<p>
+
+[The Ecosystem](#ecosystem)
+</p>
+
+</div>
+
+
+</header>
+
+## [Decentralization](#decentralization) {.pro #decentralization}
 
 Tezos is one of the only **truly decentralized blockchains**. 
 
 People were a long time ago concerned by [Proof-of-Stake and its risk of centralization](https://www.reddit.com/r/ethereum/comments/6d1mca/proof_of_stake_leads_to_centralization_with_worse/). In reality, one can just compare the baker distribution of Tezos to the miner distribution of Bitcoin or Ethereum:
 
-_Tezos bakers distribution_
-![Tezos bakers distribution](/images/tezos-staking.webp)
-{.center}
 
-_Bitcoin mining pools hashrate distribution_
-![Bitcoin mining pools hashrate distribution](/images/bitcoin-miningpools.webp)
+<section class="table">
+
+_Tezos bakers distribution_
+![Tezos bakers distribution](./images/tezos-staking.webp)
 {.center}
 
 _Ethereum Stake distribution_
-![Ethereum Stake distribution](/images/eth-staking.webp)
+![Ethereum Stake distribution](./images/eth-staking.webp)
 {.center}
+
+</section>
+
+_Bitcoin mining pools hashrate distribution_
+![Bitcoin mining pools hashrate distribution](./images/bitcoin-miningpools.webp)
+{.center}
+
 
 Public blockchains are all about decentralisation and transparency, preventing tampering and censorship by distributing their consensus to a maximum number of validator nodes. However, they differ in the overall cost required to operate a node and in the actual distribution of nodes. For instance, running a high-end node such as the one required for the Solana blockchain can cost more than a $1,000 a month. Such blockchains made the choice of a vertical scaling approach: improving the chain's performance requires using always newer hardware. This makes it harder or unprofitable for small operators to join the network's consensus, which in turn will lead to centralization of the nodes in huge data centers.
 
+<div>
 
 | Blockchain | Validators | Superminority | 
 |------------|------------|---------------|
@@ -38,13 +70,17 @@ Public blockchains are all about decentralisation and transparency, preventing t
 
 {.pure-table  .pure-table-horizontal}
 
+</div>
+
 
 On the other end of the spectrum, Tezos is one of the lightest blockchain, and chooses to run on hardware that costs a fraction of the other blockchains' nodes. With this horizontal scaling approach, applications that require a higher computational power are delegated to specialized rollups or sidechains. This makes it much easier to run a node from smaller data centers, or even from home, and so one of [the most energy efficient blockchain](https://tezos.com/carbon/).
 
-![PoS Chain carbon footprint](/images/co2-emissions.webp)
+![PoS Chain carbon footprint](./images/co2-emissions.webp)
 {.center}
 
 Consistent with this, Tezos requirements for a validator to join the network are among the lowest, as the largest part of the stake can be provided by delegators. Unlike Polkadot, Polygon or Flow, no identification procedure is required to join the network. This makes Tezos one of the most decentralized proof of stake blockchain.
+
+<div>
 
 
 | Blockchain | Validator min Hadware                      | min Stake  | KYC          |
@@ -60,8 +96,9 @@ Consistent with this, Tezos requirements for a validator to join the network are
 
 {.pure-table  .pure-table-horizontal}
 
+</div>
 
-## [2. Self-Amendment and Governance](#governance) {.pro #governance}
+## [Self-Amendment and Governance](#governance) {.pro #governance}
 
 Tezos is the main blockchain with a working Self-Amendment mechanism, going through a proper on-chain Governance process, rather than being controlled by a centralized authority.
 
@@ -89,6 +126,8 @@ When a hardfork happens on a chain, any miner (PoW) or validator (PoS) can vote 
 Some chains like cosmos try consensus with a vote on "paper" via a DAO but the upgrade itself remain a hardfork, so a fork is still possible.
 On the other hand self amendment's blockchain make upgrade happens for all, whenever a vote win.
 
+<div>
+
 
 | Blockchain | Model              | Proposers      | Voters          | Forks                          |
 |------------|--------------------|----------------|-----------------|--------------------------------|
@@ -104,10 +143,12 @@ On the other hand self amendment's blockchain make upgrade happens for all, when
 | Solana     | Hard fork          | Solana Labs    | Validators      | None                           | 
 
 {.pure-table .pure-table-horizontal}
+
+</div>
   
 Combining self-amendment & onchain gouvernance allow Tezos to implement more efficient, expressive, and scalable solutions.
 
-## [3. The Ecosystem](#ecosystem){} {.pro #ecosystem}
+## [The Ecosystem](#ecosystem){} {.pro #ecosystem}
 
 Based on its innovative governance and a proven ability to ensure upgradability without discontinuing the chain of blocks or risking assets for its contributors, Tezos has been increasingly able to bring in exciting renowned and new partners, stakeholders and mediatic characters.
  
@@ -120,7 +161,7 @@ As an energy-efficient and upgradable protocol, Tezos brings together developers
 
 An open-source blockchain, Tezos offers a tremendous amount of quality content to start building: an obvious and very user-friendly first step drives to the [Tezos Developer Portal](https://tezos.com/developers/) to explore education, tools, resources, and community. To dive deeper and experiment with the technical and economic concepts behind Tezos, Opentezos.com offers in-depth tutorials and guidelines to  build a dapp step-by-step.
 
-![Developer's conrtibutions](/images/dev-contribs.webp)
+![Developer's conrtibutions](./images/dev-contribs.webp)
 {.center}
 
 ### Arts
@@ -137,7 +178,7 @@ If Tezos is home to builders, creators, and innovators, art is at the center of 
 
 - Proof of the strong and deep bond between Tezos and art, its founders Arthur and Kathleen Breitman recently explored, in the recorded interview **Art for Art(ist)'s Sake**, how and why artist communities have flourished on Tezos.
 
-![NFT Sales Q3 2022](/images/nft-sales.webp)
+![NFT Sales Q3 2022](./images/nft-sales.webp)
 {.center}
 
 ### Public deals
