@@ -3,7 +3,7 @@
 <h1>Why is Tezos the Best
 </h1>
 
-![header](./images/header.png)
+![header](./images/header.webp)
 {.header}
 
 <div>
