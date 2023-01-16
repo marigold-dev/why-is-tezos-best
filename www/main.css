@@ -44,7 +44,7 @@ section.pro {
 }
 
 section.pro div {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 
