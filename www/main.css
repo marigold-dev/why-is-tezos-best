@@ -135,9 +135,14 @@ header {
   height: 450px;
   margin-bottom: -137px;
   margin-top: -131px;
+  max-width: 400px;
+  max-height: 450px;
 }
 
 .header  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin-top: 2em;
   height: 30vh;;
 }
