@@ -1,25 +1,9 @@
 html {
-  /* --content-background: #0F61FF ; */
-  --background: #1D2227 ; 
-  --negative: black;
-  --link: #408DFF;
-  --visited-link: var(--link);
   --color: #FFFFFF;
   --title-color:#263042;
   padding: 0px;
 }
 
-#logo {
-  max-width: 400px;
-  max-height: 1em;
-  align-self: center;
-  transform: translate(0px, .1em);
-}
-
-hr {
-  width: 100%;
-  box-shadow: 1px 3px 2px 0px black;
-}
 
 body {
   margin: 0;
@@ -28,25 +12,58 @@ body {
   box-sizing: border-box;
   padding-bottom: 40px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  background: linear-gradient(270deg, #6046BE 0.63%, #305CED 99.1%);
   display: flex;
   flex-direction: column;
   align-items: stretch;
   color: var(--color);
+  background: #000b19;
   
 }
 
-section.pro {
-  background: var(--content-background);
-  padding: 5px 60px 5px 60px;
-  margin: 30px 10px 0px 10px;
-  border-radius: 5px;
+em {
+  font-size: 1.2em;
 }
 
-section.pro div {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  text-shadow: none;
+}
+
+section div section {
+  padding: 4em 2em;
+}
+
+section div section p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+section.pro .table {
   overflow-x: auto;
 }
 
+#decentralization {
+  background: linear-gradient(270deg, #6046BE 0.63%, #305CED 99.1%);
+
+}
+
+#governance {
+  background: #2A3358;
+}
+
+#ecosystem{
+  background: #2D4DC8;
+}
 
 section.pro  p a {
   text-decoration: underline;
@@ -58,15 +75,11 @@ section img {
   object-fit: contain;
 }
 
-section img:hover{ 
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1)
-}
-
 
 ul {
   margin-top: -.5em;
   padding-left: 1em;
+  font-size: 1.2em;
 }
 
 h1,
@@ -76,32 +89,44 @@ h3 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 5em;
   text-align: center;
   font-weight: 100;
-  padding-top: 40px;
+  padding-top: 0.2em;
+  padding-left: 0.8em;
+  text-align: left;
+  width: 6em;
+}
 
-
+b {
+  background: -webkit-linear-gradient(270deg, #6046BE 0.63%, #305CED 99.1%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 h2 {
-  font-size: 1.5em;
-  color: var(--title-color);
+  font-weight: 100;
+  font-size: 3em;
+  color: var(--color);
 }
 
 .pure-table {
+  margin: 3em 0;
   font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  color: var(--color);
+}
+
+.pure-table thead{
+  color: var(--color);
 }
 
 .center {
   padding: 5px;
   text-align: center;
-  align-items: center;
+  align-items: baseline;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 a:link {
@@ -124,78 +149,140 @@ h2 a:link {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: linear-gradient(180deg, #040613 0%, #080B22 38.55%, #030722 79.9%, #0E1643 84.28%, #0C0F2D 100%);
+  background-image: url('./images/header-bg.webp');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
 }
 
-.header img {
+header img {
   height: 450px;
-  margin-bottom: -137px;
-  margin-top: -131px;
-  max-width: 400px;
-  max-height: 450px;
-}
-
-.header  {
-  display: flex;
-  justify-content: center;
+  margin-top: 3em;
   width: 100%;
-  margin-top: 2em;
-  height: 30vh;;
 }
 
-header div {
-  display: flex;
-  text-align: left;
-  font-size: 1em;
+header div a {
+  line-height: 2.5em;
+  margin: 3.2em;
+  padding: 12px;
+  border-radius: 50px;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
   text-shadow: none;
-  flex-direction: row;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  font-size: 1.2em;
 }
 
-header div p {
-  font-size: 1.4em;
-  padding: 30px;
-  animation-name:white;
-  animation-duration:3s;
-  animation-iteration-count:infinite;
+header div a:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
 
+#governance th {
+  background: #5f47c1;
 }
 
 th {
   background: #263042;
-  color: white;
+  color: 
 }
 
-
-.table {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.container .title {
+  margin: 5px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  padding: 15px 25px;
+  transition: all 0.2s ease;
 }
 
-@keyframes white {
-  0% {color:white;
-  text-shadow: 0 0 2px black,0 0 5px white, 0 0 10px white, 0 0 20px white;}
-  95% {color:#D5F9FE;
-  text-shadow: 0 0 2px black,0 0 5px white, 0 0 10px white, 0 0 20px white;}
-  100% {color:silver;
-  text-shadow: 0 0 2px black;}
-} 
+.container .title:after {
+  content: "\02795";
+  position: absolute;
+  right: 15px;
+  font-size: 14px;
+}
+
+.container .title-active:after {
+  content: "\2796";
+  color: var(--color);
+  position: absolute;
+  right: 15px;
+  font-size: 14px;
+}
+
+.container .panel {
+  display: none;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.container .title:hover {
+  background-color: var(--color);
+}
+
+.container .panel-active {
+  display: block;
+  padding-left: 15px;
+}
+
 
 @media (max-width: 900px) {
+
+  .container div {
+    flex-direction: column;
+  }
   header div {
     flex-direction: column;
     padding: 0px;
   } 
+
+  header img {
+    display: none;
+  }
   header div p {
     padding: 0;
     margin-top: -9px;
   }
-  .table {
-    flex-direction: column;
+
+}
+
+@media (max-width: 711px) {
+  section.pro .table {
+    width: 500px;
+  }
+  h1 {
+    width: auto;
+    padding-left: 0.3em;
+  }
+
+  header div a {
+    margin: 1.2em;
+  } 
+}
+
+@media (max-width: 500px) {
+  section.pro .table {
+    width: 350px;
   }
   img {
     max-width: 300px;
