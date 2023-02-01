@@ -319,7 +319,8 @@ Tezos have ambitious and thriving marketing collaborations with some of the most
 <div>
 
 </div>
-<button class="title">Ballon d'or </button>
+
+<img class="title" src="./images/ballon.webp"/>
 
 <div class="panel">
 
@@ -328,7 +329,7 @@ Along with the Ballon d'or trophey which celebrates best soccer player of the ye
 </p>
 
 </div>
-<button class="title">Manchester United</button>
+<img class="title" src="./images/manchester.webp"/>
 
 <div class="panel">
 
@@ -337,7 +338,7 @@ Through this partnership, Tezos appears on the Club’s range of training kits a
 </p>
 
 </div>
-<button class="title">Red Bull Racing</button>
+<img class="title" src="./images/redbull.webp"/>
 
 <div class="panel">
 
@@ -347,18 +348,18 @@ Tezos became the Team's Official Blockchain Partner in June 2021, most notably t
 </p>
 
 </div>
-<button class="title">McLaren</button>
+<img class="title" src="./images/pmu.webp"/>
 
 <div class="panel">
 
 <p class="description">
 
-McLaren Racing chose Tezos as its Official Blockchain Partner to create a NFT  fan experience based on _the most illustrious racing heritage and the most exciting driver line-ups across multiple racing teams_.
+Horse betting giant PMU launched a fantasy sports entertainment platform called “Stables” using Tezos-based NFTs. It enables players to experience “the intensity of horse racing and the endless possibilities of Web3".
 
 </p>
 
 </div>
-<button class="title">Team Vitality</button>
+<img class="title" src="./images/vitality.webp"/>
 
 <div class="panel">
 
@@ -367,7 +368,7 @@ Team Vitality and Tezos signed a technical partnership to give the organization'
 </p>
 
 </div>
-<button class="title">Ubisoft</button>
+<img class="title" src="./images/ubisoft.webp"/>
 
 <div class="panel">
 

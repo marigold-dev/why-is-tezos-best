@@ -190,7 +190,6 @@ header div a:hover {
 
 th {
   background: #263042;
-  color: 
 }
 
 .container .title {
@@ -210,6 +209,16 @@ th {
   position: relative;
   padding: 15px 25px;
   transition: all 0.2s ease;
+}
+
+.container img.title {
+  background: #16232a;
+  width: 85px;
+  height: 85px;
+}
+
+.container img.title:hover {
+  background-color: #2b4356;
 }
 
 .container .title:after {
