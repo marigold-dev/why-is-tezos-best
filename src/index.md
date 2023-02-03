@@ -249,6 +249,9 @@ As an energy-efficient and upgradable protocol, Tezos brings together developers
 
 An open-source blockchain, Tezos offers a tremendous amount of quality content to start building: an obvious and very user-friendly first step drives to the [Tezos Developer Portal](https://tezos.com/developers/) to explore education, tools, resources, and community. To dive deeper and experiment with the technical and economic concepts behind Tezos, Opentezos.com offers in-depth tutorials and guidelines to  build a dapp step-by-step.
 
+![Developer's conrtibutions](./images/dev-contribs.webp)
+{.center}
+
 <h3>Arts</h3>
  
 If Tezos is home to builders, creators, and innovators, art is at the center of all of it, to the point where Tezos called itself **the art blockchain**.
@@ -309,9 +312,6 @@ Its founders Arthur and Kathleen Breitman recently explored, in the recorded int
 
 <section>
 
-![Developer's conrtibutions](./images/dev-contribs.webp)
-{.center}
-
 ![NFT Sales Q3 2022](./images/nft-sales.webp)
 {.center}
 
@@ -322,61 +322,58 @@ Tezos have ambitious and thriving marketing collaborations with some of the most
 <div>
 
 </div>
-<button class="title">Ballon d'or </button>
 
-<div class="panel">
-
-<p class="description">
-Along with the Ballon d'or trophey which celebrates best soccer player of the year 2022, Karim Benzema received a unique NFT minted on Tezos blockchain. The 23th October a [NFT collection](https://nft.ballondor.com/) was released.
-</p>
-
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+    <img class="card-img" src="./images/ballon.webp"/>
+    </div>
+    <div class="card__face card__face--back">
+    Along with the Ballon d'or trophey which celebrates best soccer player of the year 2022, Karim Benzema received a unique NFT minted on Tezos blockchain. The 23th October a [NFT collection](https://nft.ballondor.com/) was released.</div>
+  </div>
 </div>
-<button class="title">Manchester United</button>
-
-<div class="panel">
-
-<p class="description">
-Through this partnership, Tezos appears on the Club’s range of training kits and enables several new fan experiences built on Tezos with one of the most popular and successful sports teams in the world. At the time of announcement, statistics show that the collaboration became the most talked-about training kit launch in sports ever. 
-</p>
-
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+    <img class="card-img" src="./images/manchester.webp"/></div>
+    <div class="card__face card__face--back">
+    Through this partnership, Tezos appears on the Club’s range of training kits and enables several new fan experiences built on Tezos with one of the most popular and successful sports teams in the world. At the time of announcement, statistics show that the collaboration became the most talked-about training kit launch in sports ever. </div>
+  </div>
 </div>
-<button class="title">Red Bull Racing</button>
-
-<div class="panel">
-
-<p class="description">
-Tezos became the Team's Official Blockchain Partner in June 2021, most notably to  build its first ever NFT fan experience.
-
-</p>
-
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+    <img class="card-img" src="./images/redbull.webp"/>
+    </div>
+    <div class="card__face card__face--back">
+   Tezos became the Team's Official Blockchain Partner in June 2021, most notably to  build its first ever NFT fan experience.
 </div>
-<button class="title">McLaren</button>
-
-<div class="panel">
-
-<p class="description">
-
-McLaren Racing chose Tezos as its Official Blockchain Partner to create a NFT  fan experience based on _the most illustrious racing heritage and the most exciting driver line-ups across multiple racing teams_.
-
-</p>
-
+  </div>
+</div><div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+   <img class="card-img" src="./images/pmu.webp"/>
+    </div>
+    <div class="card__face card__face--back">
+    Horse betting giant PMU launched a fantasy sports entertainment platform called “Stables” using Tezos-based NFTs. It enables players to experience “the intensity of horse racing and the endless possibilities of Web3".</div>
+  </div>
 </div>
-<button class="title">Team Vitality</button>
-
-<div class="panel">
-
-<p class="description">
-Team Vitality and Tezos signed a technical partnership to give the organization's community world-first ways to engage with its star players.
-</p>
-
-</div>
-<button class="title">Ubisoft</button>
-
-<div class="panel">
-
-<p class="description">
- Ubisoft and Tezos launched the Quartz platform, the debut of NFTs for in-game items from the video game company and its first step to develop a true metaverse built on Tezos.
-
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+    <img class="card-img" src="./images/vitality.webp"/>
+    </div>
+    <div class="card__face card__face--back">
+      Along with the Ballon d'or trophey which celebrates best soccer player of the year 2022, Karim Benzema received a unique NFT minted on Tezos blockchain. The 23th October a [NFT collection](https://nft.ballondor.com/) was released.</div>
+  </div>
+</div><div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+   <img class="card-img" src="./images/ubisoft.webp"/>
+    </div>
+    <div class="card__face card__face--back">
+    Ubisoft and Tezos launched the Quartz platform, the debut of NFTs for in-game items from the video game company and its first step to develop a true metaverse built on Tezos.</div>
+  </div>
 </div>
 
 </section>

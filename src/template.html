@@ -60,12 +60,18 @@
   </body>
   <script type="application/javascript">
     let titles = document.querySelectorAll(".title");
-    titles.forEach((title) => {
-      title.addEventListener("click", function () {
-        title.classList.toggle("title-active");
-        const nextElement = title.nextElementSibling;
-        nextElement.classList.toggle("panel-active");
+      titles.forEach((title) => {
+        title.addEventListener("click", function () {
+          title.classList.toggle("title-active");
+          const nextElement = title.nextElementSibling;
+          nextElement.classList.toggle("panel-active");
+        });
       });
-    });
+      let cards = document.querySelectorAll('.card');
+      [...cards].forEach((card) => {
+        card.addEventListener('click', function () {
+          card.classList.toggle('is-flipped');
+        });
+      });
   </script>
 </html>
