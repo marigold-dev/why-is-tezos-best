@@ -364,7 +364,7 @@ Tezos have ambitious and thriving marketing collaborations with some of the most
     <img class="card-img" src="./images/vitality.webp"/>
     </div>
     <div class="card__face card__face--back">
-      Along with the Ballon d'or trophey which celebrates best soccer player of the year 2022, Karim Benzema received a unique NFT minted on Tezos blockchain. The 23th October a [NFT collection](https://nft.ballondor.com/) was released.</div>
+      Team Vitality and Tezos signed a technical partnership to give the organization's community world-first ways to engage with its star players.</div>
   </div>
 </div><div class="scene scene--card">
   <div class="card">
