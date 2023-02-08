@@ -157,7 +157,7 @@ header {
 
 header img {
   height: 450px;
-  margin-top: 3em;
+  margin-top: 2em 0;
   width: 100%;
 }
 
